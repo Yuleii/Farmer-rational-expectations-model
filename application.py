@@ -12,7 +12,7 @@ delta = 0.1
 rho = 0.9
 
 # Set the number of time periods to simulate.
-T = 200
+T = 100
 
 # first 10 periods given
 inital_productivity_state = [0, -0.005, -0.009,
@@ -35,6 +35,6 @@ ax.plot(time_2, k_t, label="capital", color="C2")
 ax.plot(time_2, k_t, label="output", color="C3")
 ax.legend(loc="upper left", fontsize=T / 10)
 
-plt.xlabel('Time', fontsize=T / 6)
-plt.title('Productivity state, Consumption, capital and output over time', fontsize=T / 5)
+plt.xlabel("Time", fontsize=T / 6)
+plt.title("Productivity state, Consumption, capital and output over time", fontsize=T / 5)
 fig.savefig("figures/time_series_plot")
