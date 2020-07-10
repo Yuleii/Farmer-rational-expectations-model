@@ -27,7 +27,7 @@ def solve_farmer_model(alpha, beta, delta, rho, T, inital_productivity_state):
         Depreciation rate.
     T: int
         The number of time periods to simulate.
-    inital_10_productivity: list
+    inital_productivity_state: list
         A list contains 10 inital productivity state values(float).
 
     Returns
