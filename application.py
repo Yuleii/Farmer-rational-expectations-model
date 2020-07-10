@@ -35,6 +35,6 @@ ax.plot(time_2, k_t, label="capital", color="C2")
 ax.plot(time_2, k_t, label="output", color="C3")
 ax.legend(loc="upper left", fontsize=T / 10)
 
-plt.xlabel('Time', fontsize=T / 6)
-plt.title('Productivity state, Consumption, capital and output over time', fontsize=T / 5)
+plt.xlabel("Time", fontsize=T / 6)
+plt.title("Productivity state, Consumption, capital and output over time", fontsize=T / 5)
 fig.savefig("figures/time_series_plot")
