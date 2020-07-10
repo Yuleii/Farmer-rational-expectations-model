@@ -12,7 +12,7 @@ delta = 0.1
 rho = 0.9
 
 # Set the number of time periods to simulate.
-T = 200
+T = 100
 
 # first 10 periods given
 inital_productivity_state = [0, -0.005, -0.009,
