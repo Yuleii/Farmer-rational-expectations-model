@@ -7,11 +7,9 @@ Prophecies", 2nd edition, MIT Press, 1999.
 """
 # Import Python Packages
 import numpy as np
-from numba import jit
 import matplotlib.pyplot as plt
 
 
-@jit(nopython=True)
 def solve_farmer_model(alpha, beta, delta, rho, T, inital_productivity_state):
     """Solve a multivariate rational expectations model.
 
@@ -28,7 +26,7 @@ def solve_farmer_model(alpha, beta, delta, rho, T, inital_productivity_state):
     delta: float
         Depreciation rate.
     T: int
-        The number of time periods to simulate.
+        The number of time periods to simulate. T must bigger or equal to 10.
     inital_productivity_state: list
         A list contains 10 inital productivity state values(float).
 

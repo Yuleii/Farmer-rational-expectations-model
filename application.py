@@ -1,6 +1,6 @@
 # Import Python Packages
 import numpy as np
-from functions import solve_farmer_model
+from function import solve_farmer_model
 import seaborn as sns
 import matplotlib.pyplot as plt
 
