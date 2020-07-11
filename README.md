@@ -1,6 +1,6 @@
 
 This repository is aimed to solve the multivariate rational expectations model correspond to pages 41 - 51 of the book
-by Roger E. A. Farmer, ["Macroeconomics of Self-fulfilling Prophecies", 2nd edition, MIT Press, 1999](https://mitpress.mit.edu/books/macroeconomics-self-fulfilling-prophecies-second-edition).
+by [Roger E. A. Farmer, "Macroeconomics of Self-fulfilling Prophecies", 2nd edition, MIT Press, 1999](https://mitpress.mit.edu/books/macroeconomics-self-fulfilling-prophecies-second-edition).
 
 ### Equilibrium conditions of the stochastic Ramsey economy
 
@@ -28,6 +28,7 @@ log of disturbances to productivity is normally distributed <img src="https://re
 
 
 Given inital 10 periods:
+
 <img src="https://render.githubusercontent.com/render/math?math=\{ \log s_t\}_{t=0}^{9}=\{0, -0.005, -0.009, -0.013, -0.022, -0.021, -0.019, -0.011, -0.012, -0.003\}">
 
 
