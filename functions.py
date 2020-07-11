@@ -37,9 +37,9 @@ def solve_farmer_model(alpha, beta, delta, rho, T, inital_productivity_state):
     c_t: array_like
         Consumption over time. The shape should be (T, 1).
     k_t: array_like
-        Capital over time. The shape should be (T+1, 1).
+        Capital over time. The shape should be (T + 1, 1).
     y_t: array_like
-        Output over time. The shape should be (T+1, 1).
+        Output over time. The shape should be (T + 1, 1).
     """
     # Getting non-stochastic steady-state values.
     k_bar = ((1 / beta - 1 + delta) / alpha) ** (1 / (alpha - 1))
