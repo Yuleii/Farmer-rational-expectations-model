@@ -39,7 +39,7 @@ def solve_farmer_model(alpha, beta, delta, rho, T, inital_productivity_state):
     k_t: array_like
         Capital over time. The shape should be (T + 1, 1).
     y_t: array_like
-        Output over time. The shape should be (T + 1, 1).
+        Output over time. The shape should be (T, 1).
     """
     # Getting non-stochastic steady-state values.
     k_bar = ((1 / beta - 1 + delta) / alpha) ** (1 / (alpha - 1))
@@ -132,6 +132,6 @@ def solve_farmer_model(alpha, beta, delta, rho, T, inital_productivity_state):
         k_t[t + 1] = b1 * k_t[t] + b2 * s_t[t] + b3 * c_t[t]
     # log linearization of production function y_t = s_t*(k^{alpha}_t)， yields
     # \hat{y}_t = \hat{s}_t + alpha*\hat{k}_t
-    y_t = np.transpose(s_t) + alpha * k_t[0:len(k_t) - 1]
+    y_t = s_t + alpha * k_t[0:len(k_t) - 1]
 
     return s_t, c_t, k_t, y_t

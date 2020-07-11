@@ -32,7 +32,7 @@ fig, ax = plt.subplots(figsize=(T / 8, T / 16))
 ax.plot(time_1, s_t, label="productivity state", color="C0")
 ax.plot(time_1, c_t, label="consumption", color="C1")
 ax.plot(time_2, k_t, label="capital", color="C2")
-ax.plot(time_2, k_t, label="output", color="C3")
+ax.plot(time_1, y_t, label="output", color="C3")
 ax.legend(loc="upper left", fontsize=T / 10)
 
 plt.xlabel("Time", fontsize=T / 6)
