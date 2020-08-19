@@ -2,6 +2,8 @@
 This repository is aimed to solve the multivariate rational expectations model correspond to pages 41 - 51 of the book
 by [Roger E. A. Farmer, "Macroeconomics of Self-fulfilling Prophecies", 2nd edition, MIT Press, 1999](https://mitpress.mit.edu/books/macroeconomics-self-fulfilling-prophecies-second-edition).
 
+This is a translation and modification based on the Octave code provided by [Prof. Thomas Hintermaier](https://www.bgse.uni-bonn.de/en/people/faculty-directory/thomas-hintermaier).
+
 ### Equilibrium conditions of the stochastic Ramsey economy
 
 <img src="https://render.githubusercontent.com/render/math?math=\frac{1}{c_{t}}=\beta E_{t}\left[\frac{1}{c_{t%2B1}}\left\{(1-\delta)%2BF_{k}^{t%2B1}\right\}\right]">
